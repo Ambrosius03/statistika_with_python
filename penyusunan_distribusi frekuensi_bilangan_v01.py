@@ -86,3 +86,17 @@ class DataAnalyzer: # Definisikan kelas DataAnalyzer
         print(f"Rata-rata (Mean): {self.mean_data:.2f}") # Cetak rata-rata
         print(f"Median: {self.median_data:.2f}") # Cetak median
         print(f"Standar Deviasi: {self.std_dev_data:.2f}") # Cetak standar deviasi
+
+
+
+
+
+
+# Buat objek DataAnalyzer dengan data observasi
+analyzer = DataAnalyzer(data)
+
+# Cetak ringkasan analisis data
+analyzer.print_summary()
+
+# Tampilkan histogram data
+analyzer.plot_histogram()
